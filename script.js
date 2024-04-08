@@ -43,7 +43,7 @@ function parseInputValues() {
 
 // playing alarm
 function playAlarmSound(alarmInterval) {
-    const audio = new Audio('/Alarm-music.mp3');
+    const audio = new Audio('./Alarm-music.mp3');
     audio.play();
 
     audio.onplaying = () => {
